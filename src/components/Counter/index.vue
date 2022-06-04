@@ -1,3 +1,10 @@
+<!--
+ @Author: oq <oldqin1997@gmail.com>
+ @Date: 2022-06-04 21:43:56
+ @Last Modified by: oq <oldqin1997@gmail.com>
+ @Last Modified time: 2022-06-04 21:43:56
+-->
+
 <template>
 	<counter-result :result="result" />
 	<div>
@@ -14,6 +21,7 @@
 	import CounterButton from './Button';
 
 	import dispatch from '@/dispatch/counte';
+
 	export default {
 		name: 'Counter',
 		components: {
